@@ -1,14 +1,39 @@
 # ARCH2023 AINNCS
 
 This is the JuliaReach repeatability evaluation (RE) package for the ARCH-COMP
-2023 category report: Artificial intelligence and neural network control systems
-(AINNCS) for continuous and hybrid systems plants of the 7th International
+2023 category report: Artificial Intelligence and Neural Network Control Systems
+(AINNCS) for Continuous and Hybrid Systems Plants of the 7th International
 Competition on Verifying Continuous and Hybrid Systems (ARCH-COMP '23).
+
+To cite the work, you can use:
+
+```
+@inproceedings{LopezAFJLS23,
+  author    = {Diego Manzanas Lopez and
+               Matthias Althoff and
+               Marcelo Forets and
+               Taylor T.\ Johnson and
+               Tobias Ladner and
+               Christian Schilling},
+  editor    = {Goran Frehse and
+               Matthias Althoff},
+  title     = {{ARCH-COMP23} Category Report: Artificial Intelligence and Neural
+               Network Control Systems {(AINNCS)} for Continuous and Hybrid Systems
+               Plants},
+  booktitle = {{ARCH}},
+  series    = {EPiC Series in Computing},
+  volume    = {96},
+  publisher = {EasyChair},
+  year      = {2023},
+  url       = {https://doi.org/10.29007/x38n},
+  doi       = {10.29007/x38n}
+}
+```
+
+## Installation
 
 *Note:* Running the full benchmark suite should take no more than two hours with
 a reasonable internet connection.
-
-## Installation
 
 There are two ways to install and run this RE: either using the Julia script or
 using the Docker script.
